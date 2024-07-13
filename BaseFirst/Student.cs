@@ -12,7 +12,7 @@ public partial class Student
     
     public int Id { get; set; }
 
-    public string Name { get; set; } = null!;
+    public string FirstName { get; set; } = null!;
     public string LastName { get; set; } = null!;
 
     public DateOnly BirthDay { get; set; }
@@ -22,9 +22,24 @@ public partial class Student
 
     public DateTime CreatedAt { get; set; }
 
+    public int GroupId { get; set; }            // FK
+
+    public Group? Group { get; set; } = null!;  // Navigation property
+
+    public int AddressId { get; set; }
+
+    public Address? Address { get; set; }
+
+    public int LoginId { get; set; }
+
+    public Login? Login { get; set; }
+
+    public List<Course> Courses { get; set; } = [];
+    public List<Exam> Exam { get; set; } = [];
+
 
     override public string ToString()
     {
-        return $"Id: {Id}, Name: {Name}, BirthDay: {BirthDay}";
+        return $"Id: {Id}, Name: {LastName} {FirstName}, BirthDay: {BirthDay}, Group: {Group!.Name}";
     }
 }

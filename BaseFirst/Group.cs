@@ -13,5 +13,11 @@ namespace BaseFirst
         public string Name { get; set; } = null!;
 
         public string Description { get; set; } = null!;
+
+        public List<Student> Students { get; set; } = [];
+
+        public int CuratorId { get; set; }
+
+        public Curator? Curator { get; set; } = null!;
     }
 }
