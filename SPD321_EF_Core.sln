@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseFirst", "BaseFirst\BaseFirst.csproj", "{1814DB3B-06EE-4DDD-9286-CCFE58EE6CB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseFirst", "BaseFirst\BaseFirst.csproj", "{1814DB3B-06EE-4DDD-9286-CCFE58EE6CB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpainChampionship", "SpainChampionship\SpainChampionship.csproj", "{DEB886D4-E20C-4D2E-B6DF-DC4FC535142A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpainChampionship", "SpainChampionship\SpainChampionship.csproj", "{DEB886D4-E20C-4D2E-B6DF-DC4FC535142A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students-Dapper", "Students-Dapper\Students-Dapper.csproj", "{1A1FCDF2-A32F-4F8D-BEC4-582D86349D06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DEB886D4-E20C-4D2E-B6DF-DC4FC535142A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEB886D4-E20C-4D2E-B6DF-DC4FC535142A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEB886D4-E20C-4D2E-B6DF-DC4FC535142A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1FCDF2-A32F-4F8D-BEC4-582D86349D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1FCDF2-A32F-4F8D-BEC4-582D86349D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1FCDF2-A32F-4F8D-BEC4-582D86349D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1FCDF2-A32F-4F8D-BEC4-582D86349D06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
